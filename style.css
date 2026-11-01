@@ -1,0 +1,398 @@
+/* ---------- BASIC ---------- */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+.Paraghap1 {
+    font-size: 22px;
+    color:tomato
+}
+
+.Paraghap2 {
+    font-size: 20px;
+    color :#3b667a
+
+
+}
+
+nav {
+    max-width: 1000px;
+    margin: auto;
+
+    padding: 18px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+    color: #294c60;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #4f7c8f;
+}
+
+
+/* ---------- BUTTON ---------- */
+
+.contact-button {
+    background-color: #294c60;
+    color: white;
+
+    padding: 8px 16px;
+
+    border-radius: 6px;
+}
+
+.contact-button:hover {
+    background-color: #3b667a;
+    color: white;
+}
+
+
+/* ---------- MAIN ---------- */
+
+main {
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    padding: 0 20px;
+}
+
+
+/* ---------- SECTIONS ---------- */
+
+section {
+    background-color: white;
+
+    padding: 35px;
+
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+
+    border: 1px solid #e5e5e5;
+}
+
+section h2 {
+    color: #294c60;
+
+    margin-top: 0;
+
+    border-bottom: 2px solid #eeeeee;
+
+    padding-bottom: 10px;
+}
+
+
+/* ---------- PROFILE ---------- */
+
+.profile {
+    padding: 45px;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-table td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.profile-image-cell {
+    width: 35%;
+    text-align: center;
+}
+
+.profile-image {
+    width: 240px;
+    height: 240px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #eeeeee;
+}
+
+.hello {
+    color: #777777;
+
+    margin-bottom: 5px;
+}
+
+.profile h1 {
+    font-size: 35px;
+
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    color: #222222;
+}
+
+.nickname {
+    color: #666666;
+
+    margin-bottom: 20px;
+}
+
+
+/* ---------- INFORMATION TABLE ---------- */
+
+.information-table {
+    border-collapse: collapse;
+
+    margin-bottom: 25px;
+
+    width: 100%;
+}
+
+.information-table th,
+.information-table td {
+    text-align: left;
+
+    padding: 8px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.information-table th {
+    width: 130px;
+
+    color: #294c60;
+}
+
+
+/* ---------- MAIN BUTTON ---------- */
+
+.main-button {
+    display: inline-block;
+
+    background-color: #294c60;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    border-radius: 6px;
+
+    margin-top: 10px;
+}
+
+.main-button:hover {
+    background-color: #3b667a;
+}
+
+
+/* ---------- LIKE LIST ---------- */
+
+.like-list li {
+    margin: 10px 0;
+}
+
+
+/* ---------- SKILLS ---------- */
+
+.skills-table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.skills-table th {
+    background-color: #294c60;
+
+    color: white;
+
+    padding: 12px;
+
+    border: 1px solid #dddddd;
+}
+
+.skills-table td {
+    padding: 15px;
+
+    border: 1px solid #dddddd;
+
+    font-size: 18px;
+}
+
+
+/* ---------- EXPERIENCE ---------- */
+
+.experience-table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+.experience-table th {
+    background-color: #294c60;
+
+    color: white;
+
+    padding: 12px;
+
+    text-align: left;
+}
+
+.experience-table td {
+    padding: 12px;
+
+    border-bottom: 1px solid #dddddd;
+}
+
+.experience-table tr:hover {
+    background-color: #f7f7f7;
+}
+
+
+/* ---------- LINKS ---------- */
+
+section a {
+    color: #2d6a8a;
+}
+
+section a:hover {
+    color: #163f55;
+}
+
+
+/* ---------- CONTACT PAGE ---------- */
+
+.contact-section {
+    max-width: 650px;
+
+    margin: auto;
+}
+
+.contact-section h1 {
+    color: #294c60;
+
+    font-size: 36px;
+
+    margin-bottom: 5px;
+}
+
+.contact-card {
+    background-color: #f8fafb;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 8px;
+
+    padding: 18px;
+
+    margin: 20px 0;
+}
+
+.contact-card h3 {
+    margin-top: 0;
+
+    color: #294c60;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #253238;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media screen and (max-width: 700px) {
+
+    nav {
+        display: block;
+
+        text-align: center;
+    }
+
+    nav div {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .profile-table,
+    .profile-table tbody,
+    .profile-table tr,
+    .profile-table td {
+        display: block;
+
+        width: 100%;
+    }
+
+    .profile-table td {
+        padding: 10px 0;
+    }
+
+    .profile h1 {
+        font-size: 28px;
+    }
+
+    .skills-table {
+        font-size: 13px;
+    }
+
+}
